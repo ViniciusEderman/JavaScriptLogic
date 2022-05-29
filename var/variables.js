@@ -12,8 +12,8 @@
   OBS: CaseSensitive(A <> a) exemplo: CEU é diferente de ceu(variáveis diferentes)
  */
 
-  var nome = "Teste";
-  // nesta variável acima, estamos criando do tipo var(será explicado abaixo) do tipo STRING, com atribuição da palavra teste
+  let nome = "Teste";
+  // nesta variável acima, estamos criando do tipo let(será explicado abaixo) que é uma String, recebendo a palavra Teste
   // Atribuindo outro valor para a mesma variável:
   nome = "Teste01";
 
@@ -31,6 +31,6 @@
 
  //Usando TypeOF:
  function teste() {
-    const teste = 3.50;
+    let teste = 3.50;
     typeof teste;
  }  
