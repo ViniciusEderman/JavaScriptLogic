@@ -16,6 +16,13 @@
             line-height: 200px;
             text-align: center;
         }
+
+        div#somando{
+            background-color: rgb(98, 173, 167);
+            font: normal, 25pt Arial;
+            color: rgb(112, 107, 107);
+            text-align: center;
+        }
     </Style>
 </head>
 
@@ -49,11 +56,12 @@
 
 
 <body>
-    <h1>Somando valores</h1>
-    <input type="number" name="txtn1" id="txtn1"> + 
-    <input type="number" name="txtn2" id="txtn2">
-    <input type="button" value="Somar" onclick="somar()">
-    <div id="resultado">Resultado:</div>
+    <div id="somando"><h1>Somando valores</h1>
+        <input type="number" name="txtn1" id="txtn1"> + 
+        <input type="number" name="txtn2" id="txtn2">
+        <input type="button" value="Somar" onclick="somar()">
+        <div id="resultado">Resultado:</div>
+    </div>    
 
     <script>
         function somar() {
