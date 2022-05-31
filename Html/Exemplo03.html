@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Sistema de Multa</title>
+    <style>
+        div#multa {
+            font: normal, 25pt Arial;
+            color: rgb(24, 24, 24);
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="multa">
+        <h1>Sistema de Multa</h1>
+        Velocidade do carro: <input type="number" name="txtvel" id="txtvel"> Km/H
+        <input type="button" value="Verificar" onclick="calcular()">
+    </div>
+    <div id="resultado">
+    </div>
+    <script>
+        function calcular() {
+            var txtv = document.getElementById('txtvel');
+            var resultado = document.getElementById('resultado');
+            var vel = Number(txtv.value);
+            resultado.innerHTML = `Sua velocidade é de: <strong>${vel}Km/H</strong>`
+
+            if(vel >= 60) {
+                alert('Você foi multado');
+            } else{
+                alert('Diriga com cuidado!');
+            }
+            
+        }
+    </script>
+</body>
+
+</html>
