@@ -47,4 +47,28 @@
     </script>
 </body>
 
+
+<body>
+    <h1>Somando valores</h1>
+    <input type="number" name="txtn1" id="txtn1"> + 
+    <input type="number" name="txtn2" id="txtn2">
+    <input type="button" value="Somar" onclick="somar()">
+    <div id="resultado">Resultado:</div>
+
+    <script>
+        function somar() {
+            var txt1 = window.document.getElementById('txtn1');
+            var txt2 = window.document.getElementById('txtn2');
+            var resultado = window.document.getElementById('resultado');
+
+            var n1 = Number(txt1.value);
+            var n2 = Number(txt2.value);
+
+            var soma = n1 + n2;
+
+            resultado.innerHTML = `A soma entre ${n1} + ${n2} é: ${soma}`
+        }
+    </script>
+</body>
+
 </html>
