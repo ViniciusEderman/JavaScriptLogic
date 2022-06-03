@@ -1,0 +1,11 @@
+
+body {
+    text-align: center;
+    background-color: rgb(154, 201, 228);
+    color: white;
+}
+
+div#res {
+    color: rgb(46, 86, 139);
+    font: normal 25pt Arial;
+}
