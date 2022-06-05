@@ -34,6 +34,8 @@ function add() {
         item.text = `Valor ${num.value} adicionado com sucesso`;
 
         lista.appendChild(item);
+
+        resultado.innerHTML = '';
     }
     else {
         window.alert('Valor inválido ou já está na lista.');
