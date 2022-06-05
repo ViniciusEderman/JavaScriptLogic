@@ -27,6 +27,6 @@ function add() {
 
     }
     else {
-        window.alert('Valor inválido');
+        window.alert('Valor inválido ou já está na lista.');
     }
 }
