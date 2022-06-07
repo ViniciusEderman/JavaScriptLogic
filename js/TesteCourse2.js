@@ -1,9 +1,17 @@
 
-let num = 13;
+let num = 2;
+let numTesteNotPrimo = 15;
+let divisores = 0;
 
-if((num % num == 0) && (num % 1 == 0) && ()) {
-    console.log('primo');
+for(let i = 1; i <= num; i++) {
+    if(numTesteNotPrimo % i == 0) {
+        divisores++;
+    }
 }
-else{
-    console.log('not primo');
+
+if(divisores == 2) {
+    console.log(`O numero é primo`);
+}
+else {
+    console.log(`O numero não é primo`);
 }
