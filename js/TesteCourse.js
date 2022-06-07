@@ -1,9 +1,9 @@
 
 for(i = 0; i <= 50; i++) {
     if(i % 2 == 0) {
-        console.log('Numeros impares');
+        console.log(`Numeros pares: ${i}`);
     }
     else{
-        console.log('numeros pares');
+        console.log(`Numeros impares: ${i}`);
     }
 }
