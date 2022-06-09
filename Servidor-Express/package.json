@@ -1,0 +1,19 @@
+{
+  "name": "servidor-express-node",
+  "version": "1.0.0",
+  "description": "project based on the nodejs and express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViniciusEderman/JavaScriptLogic.git"
+  },
+  "author": "vinicius ederman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViniciusEderman/JavaScriptLogic/issues"
+  },
+  "homepage": "https://github.com/ViniciusEderman/JavaScriptLogic#readme"
+}
