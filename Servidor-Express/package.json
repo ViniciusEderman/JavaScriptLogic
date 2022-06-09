@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ViniciusEderman/JavaScriptLogic/issues"
   },
-  "homepage": "https://github.com/ViniciusEderman/JavaScriptLogic#readme"
+  "homepage": "https://github.com/ViniciusEderman/JavaScriptLogic#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
