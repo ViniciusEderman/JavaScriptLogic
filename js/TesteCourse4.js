@@ -19,3 +19,12 @@ let arrayX = ["joao", "carlos", "maiza", "felipe", "luan"];
     }
 
 // exercício 02 forma 0.2 de fazer
+const arrayZ = ["Vinicius", "Carlos", "Maiza"] 
+    if(arrayZ.includes("Vinicius")) {
+        console.log("Seu nome existe no meu array");
+    }
+    else{
+        console.log("Não existe");
+    }
+
+// includes em JS = "O método includes() determina se um conjunto de caracteres pode ser encontrado dentro de outra string, retornando true ou false"
