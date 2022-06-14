@@ -4,4 +4,6 @@ let computador = {
     ram: 2,
 }
 
+computador.fonte = 'TermalTake';
+
 console.log(computador);
