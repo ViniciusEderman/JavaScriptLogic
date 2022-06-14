@@ -28,3 +28,21 @@ const arrayZ = ["Vinicius", "Carlos", "Maiza"]
     }
 
 // includes em JS = "O método includes() determina se um conjunto de caracteres pode ser encontrado dentro de outra string, retornando true ou false"
+
+
+// exercício 03 
+let vector = [1,2,3,4,5,6];
+let vect = ["name1", "name2", "name3"];
+
+function verify(arr) {
+    if(vector.length > 5) {
+        console.log("Muitos elementos");
+    }
+    if(vect.length >= 5) {
+        console.log("Muitos elementos");
+    }
+    else{
+        console.log("Poucos elementos");
+    }
+}
+verify();
