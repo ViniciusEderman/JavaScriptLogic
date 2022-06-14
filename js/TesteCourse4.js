@@ -46,3 +46,32 @@ function verify(arr) {
     }
 }
 verify();
+
+// exercício 04
+let String = "O meu nome é vinicius ederman e eu quero sair um pouco de casa";
+
+var array = String.split(" ");
+
+for(i = 0; i < array.length; i++) {
+    console.log(array[i]);
+}
+
+// exercício 05
+const calculadora = {
+    soma: function(a, b) {
+        return a + b;
+    },
+    subtrair: function(a, b){
+        return a - b;
+    },
+    multiplicar: function(a, b) {
+        return a * b;
+    },
+    dividir: function(a, b) {
+        return a / b;
+    }
+}
+console.log(calculadora.soma(3,4));
+console.log(calculadora.subtrair(3,4));
+console.log(calculadora.multiplicar(3,4));
+console.log(calculadora.dividir(3,4));
