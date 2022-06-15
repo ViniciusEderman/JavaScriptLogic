@@ -28,4 +28,29 @@
  conta.deposito(2500);
  conta.saque(130);
 
- console.log(conta);
+ //console.log(conta);
+
+ // Novo exercício:
+ /* class CarrinhoCompras {
+    constructor(itens) {
+        this.itens = itens;
+        this.itens = 1;
+    }
+
+    tipoItens(Titem) {
+        this.tipoItem = Titem;
+        tipoUm = 15.00;
+        tipoDois = 15.98
+        tipoTres = 2.75
+        tipoQuatro = 25.00;
+    }
+
+    valor(valor) {
+        valor = this.tipoItem * this.itens;
+        this.valor = valor;
+    }
+
+ } */
+
+ // Resolução correta do exercício acima ^ :
+ 
