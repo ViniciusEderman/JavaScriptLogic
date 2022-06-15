@@ -53,4 +53,63 @@
  } */
 
  // Resolução correta do exercício acima ^ :
- 
+ class CarrinhoCompras {
+    constructor(itens, quantidade, valorTotal) {
+        this.itens = itens;
+        this.quantidade = quantidade;
+        this.valorTotal = valorTotal;
+    }
+
+    adicionarItem(item) {
+        let contador = 0;
+
+        this.adicionarItem = item;
+            for(let itemCarrinho in this.itens) {
+                if(this.itens[itemCarrinho].id == item.id) {
+                    this.itens[itemCarrinho].quantidade += item.quantidade;
+                    contador = 1;
+                }
+            }
+
+            if(contador == 0) {
+                this.itens.push(item);
+            }
+
+            this.quantidade += item.quantidade;
+            this.valorTotal += item.preco * item.quantidade;
+    }
+
+    removerItem(item) {
+        for(let itemCarrinho in this.itens) {
+            if(this.itens[itemCarrinho].id == item.id) {
+                let obj = this.itens[itemCarrinho];
+                let index = this.itens.findIdex(function(obj) { return obj.id == item.id});
+
+                this.itens.splice(index, 0);
+
+                this.quantidade -= item.quantidade;
+                this.valorTotal -= item.preco * item.quantidade;
+            }
+        }
+    }
+ }
+
+ let carrinho = new CarrinhoCompras ([
+    {
+        id: 1,
+        nome: "blusão",
+        quantidade: 5,
+        preco: 35.50,
+    },
+    {
+        id: 02,
+        nome: "Calça",
+        quantidade: 2,
+        preco: 50
+    }
+ ], 3, 277.50)
+  
+ console.log(carrinho);
+
+ carrinho.adicionarItem({id: 01, nome: "CamisaTeste", quantidade: 3, preco: 22.50});
+ console.log(carrinho);
