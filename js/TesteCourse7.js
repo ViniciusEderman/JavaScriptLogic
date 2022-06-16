@@ -55,6 +55,12 @@ class Conta {
     }
 }
 
+class ContaEspecial extends Conta {
+    constructor(saldoContaC, saldoContaP, juros) {
+        super(saldoContaC, saldoContaP, juros * 2) 
+    }
+}
+
 let conta = new Conta(695.80, 2000.00, 0);
 console.log(conta);
 
