@@ -11,3 +11,7 @@ function checarEntradaDados(num) {
 
 checarEntradaDados(33);
 //checarEntradaDados('TESTE');
+
+//Exemplo usando o DOM do js:
+let entrada = prompt("Digite um número: ");
+checarEntradaDados(entrada);
