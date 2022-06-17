@@ -27,5 +27,20 @@ function teste(nome) {
 }
 
 teste("Vinicius Ederman");
-teste(185);
+teste(185); 
 
+// Usando Try/Catch:
+// adicionando o finally 
+
+try {
+    let soma = "vinicius" - 5;
+    console.log(soma);
+}
+catch(error) {
+    console.log(error);
+}
+finally {
+    console.log("Executando seu código..."); // vai ser executado mesmo se cair no catch(ou tbm no try)
+}
+// explicação do código acima: ele está subtraindo uma string e um number(logo isso se torna um error NaN). Então, o código caí no catch e printa este erro.
+// explicando o finally(finalmente): executa algum trecho de código, mesmo tendo erro ou não!
