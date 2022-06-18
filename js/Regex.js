@@ -22,3 +22,8 @@ const regexDzao = /\D/; // este operador não aceita números, (só se os mesmos
 console.log(regexDzao.test("olá, tudo bem?"));
 console.log(regexDzao.test("#"));
 console.log(regexDzao.test(1234567));
+
+// Operador Not para Regexs:
+let palavraSemAeV = /[^"av"]/;
+console.log(palavraSemAeV.test("av"));
+console.log(palavraSemAeV.test("sdfgjklzx"));
