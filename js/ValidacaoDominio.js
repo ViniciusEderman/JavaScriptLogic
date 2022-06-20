@@ -15,3 +15,17 @@ console.log(validarDataNasc.test("nome"));
 console.log(validarDataNasc.test(192025));
 console.log(validarDataNasc.test("123teste"));
 console.log(validarDataNasc.test(18/04/1980)); // Por que não funciona?? Dúvida!
+
+//Exercício{criar regex apenas para letras AA}:
+let letraCaps = /[A-Z]/;
+console.log(letraCaps.test("a"));
+console.log(letraCaps.test("AAAAA"));
+console.log(letraCaps.test("ZkAb"));
+console.log(letraCaps.test(1980));
+
+//Exercício{criar regex para validar marcas}:
+let validarMarcas = /Marca: (Nike|Adidas|Puma|Klering)/;
+console.log(validarMarcas.test("Marca: Nike"));
+console.log(validarMarcas.test("marca: Nike"));
+console.log(validarMarcas.test("Nike"));
+console.log(validarMarcas.test("Marca: qualquerUma"));
