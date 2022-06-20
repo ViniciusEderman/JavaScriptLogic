@@ -10,7 +10,7 @@ console.log(validarEmail.test("viniciusederman@"));
 console.log(validarEmail.test("viniciusedermanmc@hotmail.com"));
 console.log(validarEmail.test("string"));
 
-let validarDataNasc = /[0-9]{2}[/][0-9]{2}[/][0-9]{4}/;
+let validarDataNasc = /[0-31]{2}[/][0-12]{2}[/][1950-2022]{4}/;
 console.log(validarDataNasc.test("nome"));
 console.log(validarDataNasc.test(192025));
 console.log(validarDataNasc.test("123teste"));
