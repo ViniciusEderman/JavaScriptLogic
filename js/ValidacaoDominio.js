@@ -36,3 +36,9 @@ console.log(verificarIp.test("192.0.0.1"));
 console.log(verificarIp.test(192/168/199));
 console.log(verificarIp.test("192168199"));
 console.log(verificarIp.test("8.8.8.8"));
+
+//Exercício{nomeUsuario}:
+let userName = /^(?=.{3,16}$)[a-z0-9-_]/;
+console.log(verificarIp.test("teste_123"));
+console.log(verificarIp.test("teste23"));
+console.log(verificarIp.test("qualquercoisa"));
