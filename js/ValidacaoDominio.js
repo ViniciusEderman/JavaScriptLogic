@@ -29,3 +29,10 @@ console.log(validarMarcas.test("Marca: Nike"));
 console.log(validarMarcas.test("marca: Nike"));
 console.log(validarMarcas.test("Nike"));
 console.log(validarMarcas.test("Marca: qualquerUma"));
+
+//Exercício{verificar ip}:
+let verificarIp = /\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}/;
+console.log(verificarIp.test("192.0.0.1"));
+console.log(verificarIp.test(192/168/199));
+console.log(verificarIp.test("192168199"));
+console.log(verificarIp.test("8.8.8.8"));
