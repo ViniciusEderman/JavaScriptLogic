@@ -26,3 +26,13 @@ setTimeout(function() {
     btn.removeEventListener("click", mensagem); // removendo o evento
 },3000); // removendo o evento depois de 3segundos! 
 
+// Default Event:
+let defaultEvent = document.querySelector("#selecaoHtml");
+
+defaultEvent.addEventListener("click", function(e) {
+    e.preventDefault();
+    console.log("Clicou mas não mudou o liknk");
+}); /* O que está acontecendo neste código? 
+estamos selecionando um elemento do html e depois criando um evento para click, porém temos a seguinte linha:
+e.preventDefault(); 
+O método cancela o evento se for cancelável, significando que a ação padrão que pertence ao evento não ocorrerá */
