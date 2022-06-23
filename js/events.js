@@ -8,3 +8,9 @@ botao.addEventListener("click", function() {
  /* Neste ponto eu estou atribuinto ao botao -> um evento(do tipo click);
   Sendo assim printado que o usuário clicou */
 
+// Criando outro evento com arrow function:
+let btn = document.querySelector("#btn");
+
+btn.addEventListener("click", () => {
+    console.log("O usuário clicou aqui!");
+});
