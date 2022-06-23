@@ -36,3 +36,11 @@ defaultEvent.addEventListener("click", function(e) {
 estamos selecionando um elemento do html e depois criando um evento para click, porém temos a seguinte linha:
 e.preventDefault(); 
 O método cancela o evento se for cancelável, significando que a ação padrão que pertence ao evento não ocorrerá */
+
+// Evento com teclas:
+window.addEventListener("keydown", (e) => {
+    if(e.key == "v") {
+        console.log("User press v");
+    }
+});
+/* keyUp and keydown => keydown = quando apertamos a tecla, keyup = quando soltamos a tecla */
