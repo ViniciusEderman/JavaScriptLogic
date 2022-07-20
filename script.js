@@ -4,11 +4,11 @@
 
 function LoveIsLove() {
 
-    trueLove;
+    trueLove = 1;
     falseLove = "I dont like u";
 
     if(trueLove = 1) {
-        for(i = 0; i < trueLove; i++) {
+        for(i = 0; i < trueLove; i--) {
             console.log("I love u");
         }
     }
@@ -16,3 +16,5 @@ function LoveIsLove() {
         console.log(falseLove);
     }
 }
+
+LoveIsLove();
