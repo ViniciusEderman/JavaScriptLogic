@@ -4,7 +4,7 @@ function ArrayGame() {
         
      // console.log(array); 
 
-    for(let i = 0; i < array.length; i++) {
+    for(let i = 0; i <= array.length; i++) {
         console.log(i[4]);
     }
 }
