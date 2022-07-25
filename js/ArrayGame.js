@@ -5,8 +5,9 @@ function ArrayGame() {
      // console.log(array); 
 
     for(let i = 0; i <= array.length; i++) {
-        console.log(i[4]);
+        // há forma de imprimir todo o conteúdo: 0 = 1, 1 = 2...
     }
+    console.log(array[4]);
 }
 
 ArrayGame();
