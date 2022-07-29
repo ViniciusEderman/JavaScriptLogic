@@ -11,4 +11,11 @@ function teste(a, b) {
     }
 }
 
+if(a > b) {
+    console.log('(case a) is the upset level to b');
+}
+else {
+    console.log('b is the upset');
+}
+
 teste();
