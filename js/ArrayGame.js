@@ -20,3 +20,5 @@ function randomNumber(randomNumber) {
 }
 
 randomNumber();
+
+//tentar fazer numeros aletórios iguais aos contidos no array, assim definir oq cada numero é no jogo, e adicionar mais.
