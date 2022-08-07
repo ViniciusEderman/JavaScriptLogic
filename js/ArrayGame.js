@@ -9,3 +9,14 @@ function ArrayGame() {
 }
 
 ArrayGame();
+
+function randomNumber(randomNumber) {
+
+    this.randomNumber = randomNumber;
+
+    randomNumber = Math.floor(Math.random() * 256);
+
+    console.log(randomNumber);
+}
+
+randomNumber();
