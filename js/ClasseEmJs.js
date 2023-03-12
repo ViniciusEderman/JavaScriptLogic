@@ -1,14 +1,24 @@
 class Car {
 
     constructor(model) {
-        this.model = model;
+        
+        if(model === "" ) {
+            console.log("Você deve digitar um modelo");
+        } else {
+            this.model = model;
+        }
     }
 
-    setName(name) {
-        this.name = name;
+    setColor(color) {
+
+        if(color === "" ) {
+            console.log("Você deve digitar uma cor");
+        } else {
+            this.color = color;
+        }
     }
 
-    getName() {
-        return this.name;
+    getColor() {
+        return this.color;
     }
-} 
+}  
