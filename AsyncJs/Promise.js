@@ -6,3 +6,10 @@ function pegarId(){
     })
 }
 
+function buscarEmailNoBanco(id){
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve("victorlima@guia.com.br")
+        },2000);
+    })
+}
