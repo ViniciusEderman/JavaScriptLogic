@@ -19,4 +19,3 @@ function animations() {
         msg.innerHTML = 'Boa noite';
     }
 }   
-
