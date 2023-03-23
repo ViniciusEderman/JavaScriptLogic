@@ -113,3 +113,4 @@
 
  carrinho.adicionarItem({id: 01, nome: "CamisaTeste", quantidade: 3, preco: 22.50});
  console.log(carrinho);
+ 
