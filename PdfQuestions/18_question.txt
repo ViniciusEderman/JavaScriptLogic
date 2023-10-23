@@ -1,0 +1,18 @@
+ Ler o ano atual e o ano de nascimento de uma pessoa. Escrever uma mensagem que diga se ela
+poderá ou não votar este ano (não é necessário considerar o mês em que a pessoa nasceu). 
+
+OBS:
+Usarei linguagem Natural:
+
+
+Resposta:
+var anoAtual = x;
+var anoNascimento = y;
+var idade = anoAtual - anoNascimento;
+
+//não é dito na questão a idade para votar, mas vamos utilizar a br >=16
+
+se idade >=16 
+  print: você pode votar
+senao 
+  print: vc não pode votar

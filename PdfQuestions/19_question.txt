@@ -1,0 +1,13 @@
+Ler dois valores (considere que não serão lidos valores iguais) e escrever o maior deles. 
+
+var value1 = x;
+var value2 = y;
+
+Obs: value1 sempre será diferente do value2
+
+se value1 > value2
+  print: value1 é maior 
+senao
+  print: value2 é maior
+
+  
