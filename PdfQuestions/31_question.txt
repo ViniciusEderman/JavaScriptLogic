@@ -1,0 +1,14 @@
+Ler 3 valores (A, B e C) representando as medidas dos lados de um triângulo e escrever se formam
+ou não um triângulo. 
+OBS: para formar um triângulo, o valor de cada lado deve ser menor que a soma
+dos outros 2 lados. 
+
+v1 = x
+v2 = z
+v3 = y
+
+ se v1 < (v2 + v3) e v2 < (v1 + v3) e v3 < (v1 + v2)
+  mostrar = forma um triangulo
+ senao
+  mostrar = não forma um triangulo
+    

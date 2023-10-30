@@ -1,0 +1,36 @@
+ Ler 3 valores (considere que não serão informados valores iguais) e escrever a soma dos 2
+maiores.
+
+x1 = value1
+x2 = value2
+x3 = value3
+armazena = 0 
+somar;
+
+se x1 > x2 e x1 > x3
+ armazena = x1
+se x2 > x1 e x2 > x3
+ armazena = x2
+senao
+ armazena = x3
+
+se armazena = x1 
+ se x2 > x3
+ soma = armazena + x2
+ se x2 < x3
+ soma = armazena + x2
+ mostrar = soma
+
+se armazena = x2
+ se x1 > x3
+ soma = armazena + x1
+ se x1 < x3
+ soma = armazena + x3
+ mostrar = soma
+
+se armazena = x3
+ se x1 > x2
+ soma = armazena + x1
+ se x1 < x2
+ soma = armazena + x2
+ mostrar = soma

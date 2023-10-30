@@ -1,0 +1,29 @@
+Teste de mesa:
+
+ler x;
+ler y;
+
+z <- (x * y) + 5
+se z <= 0 entao
+  resposta <- 'A'
+senao
+ se z <= 100 entao
+  resposta <- 'B'
+senao
+  resposta <- 'C'
+
+escrever z, resposta
+
+Teste:
+1° x = 3 e y = 2 z = ? e resposta = ?
+2° x = 150 e y = 3 z = ? e resposta = ?
+3° x = 7 e y = -1 z = ? e resposta = ?
+4° x = -2 e y = 5 z = ? e resposta = ?
+5° x = 50 e y = 3 z = ? e resposta = ?
+
+Resposta:
+1° -> Z= 11 e Resposta = B
+2° -> Z= 455 e Resposta = C
+3° -> Z= -2  e Resposta = A
+4° -> Z= -5  e Resposta = A
+5° -> Z= 155 e Resposta = C

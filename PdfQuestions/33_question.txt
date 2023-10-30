@@ -1,0 +1,14 @@
+Ler dois valores e imprimir uma das três mensagens a seguir:
+‘Números iguais’, caso os números sejam iguais
+‘Primeiro é maior’, caso o primeiro seja maior que o segundo;
+‘Segundo maior’, caso o segundo seja maior que o primeiro. 
+
+v1, v2
+
+se v1 > v2 
+ mostrar primeiro é maior
+se v1 = v2
+ mostrar que são número iguais
+senao
+ mostrar que o 2 é o maior
+ 

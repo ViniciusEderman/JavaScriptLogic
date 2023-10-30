@@ -1,0 +1,10 @@
+Ler um valor e escrever se é positivo, negativo ou zero
+
+valor = x
+
+ se x > 0 
+   valor = positivo
+ se x = 0
+  valor = zero
+ senao
+    valor = negativo
