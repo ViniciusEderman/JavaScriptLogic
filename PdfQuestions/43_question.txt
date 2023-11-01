@@ -1,0 +1,7 @@
+TESTE DE MESA:
+
+1° A B C = 1 2 3 -> RESPOSTA = Triangulo Escaleno
+2° A B C = 3 4 5 -> RESPOSTA = Triangulo Escaleno
+3° A B C = 2 2 4 -> RESPOSTA = Triangulo ISÓSCELES
+4° A B C = 4 4 4 -> RESPOSTA = Triangulo EQUILÁTERO
+5° A B C = 5 3 3 -> RESPOSTA = Triangulo ISÓSCELES
