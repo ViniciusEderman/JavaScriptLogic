@@ -1,0 +1,11 @@
+Ler o número de alunos existentes em uma turma e, após isto, ler as notas destes alunos, calcular e
+escrever a média aritmética dessas notas lidas.
+
+escreva quantos alunos há na turma!
+escreva as notas desses alunos!
+
+some todas as notas!
+
+pegue o valor das notas e divida pelo total dos alunos!
+
+me mostre o resultado!
