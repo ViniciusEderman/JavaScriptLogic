@@ -1,0 +1,14 @@
+
+Faça um algoritmo para ler e armazenar em um vetor a temperatura média de todos os dias do ano.
+Calcular e escrever:
+a) Menor temperatura do ano
+b) Maior temperatura do ano
+c) Temperatura média anual
+d) O número de dias no ano em que a temperatura foi inferior a média anual 
+
+
+/*Resposta com LN:
+Receba as temperaturas!
+Agora percorra as temperaturas, pegue a menor e maior e mostre na tela!
+Agora percorra novamente as temperaturas somando todas e depois dividindo pelo total de itens, mostre o valor da media!
+Agora percorra novamente, e retorne somente as temperaturas que são menores que a média, mostre na tela!
